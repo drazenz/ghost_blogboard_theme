@@ -113,8 +113,8 @@ body {
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color-mod(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: #000;
+    /* background: color-mod(var(--darkgrey) l(-5%)) no-repeat center center; */
     background-size: cover;
 }
 
@@ -127,7 +127,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+    background: white;
 }
 
 .site-header-background:after {
@@ -140,7 +140,7 @@ body {
     z-index: 10;
     display: block;
     height: 140px;
-    background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background: white;
 }
 
 .site-header-background.no-image:before,
