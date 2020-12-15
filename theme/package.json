@@ -88,5 +88,8 @@
                 "width": 2000
             }
         }
+    },
+    "dependencies": {
+        "yarn": "^1.22.10"
     }
 }

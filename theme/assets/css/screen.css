@@ -283,7 +283,7 @@ body {
     right: 0;
     left: 0;
     z-index: 1000;
-    background: color-mod(var(--darkgrey) l(-5%));
+    background: #f5f5f5;
 }
 
 .site-nav {
@@ -316,7 +316,7 @@ body {
 .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,
 .site-nav-main .site-nav-left-wrapper:after {
     right: 0;
-    background: linear-gradient(to right, color-mod(var(--darkgrey) l(-5%) a(0)) 0%,color-mod(var(--darkgrey) l(-5%)) 100%);
+    /* background: linear-gradient(to right, color-mod(var(--darkgrey) l(-5%) a(0)) 0%,color-mod(var(--darkgrey) l(-5%)) 100%); */
 }
 
 .site-nav-left {
@@ -355,7 +355,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: inline-block;
     margin-right: 32px;
     padding: 12px 0;
-    color: #fff;
+    color: #000;
     font-size: 1.7rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -402,7 +402,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     padding: 12px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
     transition: opacity 0.35s ease-in-out;
 }
@@ -439,7 +439,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff;
+    color: #000;
     font-size: 1.7rem;
     font-weight: 400;
     text-transform: none;
@@ -508,7 +508,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
 }
 
 .social-link-fb svg {
@@ -520,7 +520,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .social-link-wb svg path {
-    stroke: #fff;
+    stroke: #000;
 }
 
 .social-link-rss svg {
@@ -532,7 +532,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 0 0 10px;
     padding: 4px 10px;
     border: #fff 1px solid;
-    color: #fff;
+    color: #000;
     line-height: 1em;
     border-radius: 10px;
     opacity: 0.8;
@@ -559,7 +559,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: #fff;
+    fill: #000;
 }
 
 /* Special behaviors for home navigation */
@@ -693,7 +693,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-excerpt {
     max-width: 56em;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .post-card-excerpt p {
@@ -986,7 +986,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+	font-family: 'Noto Sans JP', sans-serif;
     font-size: 2.3rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1019,8 +1019,8 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 0 auto;
     padding: 0 170px 6vw;
     min-height: 230px;
-    font-family: Georgia, serif;
-    font-size: 2.0rem;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.8rem;
     line-height: 1.6em;
     background: #fff;
 }
@@ -1263,7 +1263,8 @@ Usage (In Ghost editor):
 .post-full-content h5,
 .post-full-content h6 {
     color: color-mod(var(--darkgrey) l(-5%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .post-full-content h1 {
@@ -1341,7 +1342,7 @@ Usage (In Ghost editor):
     padding: 0.4em 1em 0.9em;
     border: 0;
     color: var(--blue);
-    font-family: Georgia,serif;
+	font-family: 'Noto Sans JP', sans-serif;
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;
@@ -2739,7 +2740,7 @@ Usage (In Ghost editor):
     margin: 0 auto 50px;
     max-width: 650px;
     color: #fff;
-    font-family: Georgia, serif;
+	font-family: 'Noto Sans JP', sans-serif;
     font-size: 2.4rem;
     line-height: 1.3em;
     font-weight: 300;

@@ -34,7 +34,6 @@ into the {body} of the default.hbs template --}}
                 <div class="post-full-byline">
 
                     <section class="post-full-byline-content">
-
                         <ul class="author-list">
                             {{#foreach authors}}
                             <li class="author-list-item">
@@ -72,7 +71,7 @@ into the {body} of the default.hbs template --}}
                         </ul>
 
                         <section class="post-full-byline-meta">
-                            <h4 class="author-name">{{authors}}</h4>
+                            <h4 class="author-name" style="text-transform: none">{{authors}}</h4>
                             <div class="byline-meta-content">
                                 <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> {{reading_time}}</span>
@@ -185,11 +184,11 @@ into the {body} of the default.hbs template --}}
         // FitVids - end
 
         // Replace nav with title on scroll - start
-        Casper.stickyNavTitle({
-            navSelector: '.site-nav-main',
-            titleSelector: '.post-full-title',
-            activeClass: 'nav-post-title-active'
-        });
+        /* Casper.stickyNavTitle({ */
+        /*     navSelector: '.site-nav-main', */
+        /*     titleSelector: '.post-full-title', */
+        /*     activeClass: 'nav-post-title-active' */
+        /* }); */
         // Replace nav with title on scroll - end
 
         // Hover on avatar

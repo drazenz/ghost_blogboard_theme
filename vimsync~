@@ -1,2 +1,2 @@
-rsync -rP $(git rev-parse --show-toplevel)/theme/* root@ghost-vm:/var/www/ghost/content/themes/casper --exclude .git --delete --rsync-path "sudo -iu ghost_mgr rsync"
+rsync -rP $(git rev-parse --show-toplevel)/theme/* root@ghost-vm:/var/www/ghost/content/themes/casper --exclude .git --exclude node_modules --delete --rsync-path "sudo -iu ghost_mgr rsync"
 
