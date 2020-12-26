@@ -157,6 +157,7 @@ body {
     padding: 6vw 3vw;
     min-height: 200px;
     max-height: 340px;
+	box-sizing: initial;
 }
 
 .site-title {
