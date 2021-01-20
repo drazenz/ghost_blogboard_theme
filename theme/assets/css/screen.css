@@ -694,7 +694,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-excerpt {
     max-width: 56em;
     color: var(--midgrey);
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Merriweather', serif;
 }
 
 .post-card-excerpt p {
@@ -987,7 +987,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Merriweather', serif;
     font-size: 2.0rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -1020,8 +1020,9 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 0 auto;
     padding: 0 170px 6vw;
     min-height: 230px;
-	font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.6rem;
+	font-family: 'Merriweather', serif;
+    font-size: 1.7rem;
+	font-weight: 300;
     line-height: 1.6em;
     background: #fff;
 }
@@ -1265,7 +1266,7 @@ Usage (In Ghost editor):
 .post-full-content h6 {
     color: color-mod(var(--darkgrey) l(-5%));
     /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Merriweather', serif;
 }
 
 .post-full-content h1 {
@@ -1343,7 +1344,7 @@ Usage (In Ghost editor):
     padding: 0.4em 1em 0.9em;
     border: 0;
     color: var(--blue);
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Merriweather', serif;
     font-size: 3.2rem;
     line-height: 1.35em;
     text-align: center;
@@ -2741,7 +2742,7 @@ Usage (In Ghost editor):
     margin: 0 auto 50px;
     max-width: 650px;
     color: #fff;
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Merriweather', serif;
     font-size: 2.4rem;
     line-height: 1.3em;
     font-weight: 300;
