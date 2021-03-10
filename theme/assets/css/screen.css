@@ -408,6 +408,23 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     transition: opacity 0.35s ease-in-out;
 }
 
+li.nav-try-blogboard {
+	margin-left: 12px!important;
+}
+
+li.nav-try-blogboard a {
+	font-weight: bold;
+	text-transform: none;
+	background-color:  #fd3a5c;
+	opacity: 1;
+	border-radius: 5px;
+	color: white;
+}
+
+li.nav-try-blogboard a:hover {
+	text-decoration: none;
+}
+
 .nav li a:hover {
     text-decoration: none;
     opacity: 1;
