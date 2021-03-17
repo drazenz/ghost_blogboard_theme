@@ -546,14 +546,16 @@ li.nav-try-blogboard a:hover {
 }
 
 .subscribe-button {
-    display: block;
-    margin: 0 0 0 10px;
-    padding: 4px 10px;
-    border: #fff 1px solid;
-    color: #000;
+	font-weight: bold;
+	text-transform: none;
+	/* background-color:  rgb(111, 111, 111); */
+	opacity: 1;
+	border-radius: 5px;
+	color: #000;
+
+    padding: 15px 15px;
+    border: #000 1px solid;
     line-height: 1em;
-    border-radius: 10px;
-    opacity: 0.8;
 }
 
 .subscribe-button:hover {
