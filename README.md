@@ -26,7 +26,7 @@ _Excerpt_: In this article we'll look at several case studies of data science be
 
 ![Post preview](https://imgur.com/suuAt8G.jpg)
 
-## [Code Review Best Practices - Lessons from the Trenches](https://blogboard.io/blog/code-review-best-practices/)
+## [Code Review Best Practices - Lessons from the Trenches](http://bit.ly/blgbrd-code-reviews)
 
 _Excerpt_: In this article we'll summarize the lessons from a dozen of official company engineering blogs. Why do code reviews? Reviews as a QA tool. How reviews help improve your team?
 
