@@ -32,7 +32,6 @@ into the {body} of the default.hbs template --}}
                 {{/if}}
 
                 <div class="post-full-byline">
-
                     <section class="post-full-byline-content">
                         <ul class="author-list">
                             {{#foreach authors}}
@@ -101,12 +100,12 @@ into the {body} of the default.hbs template --}}
                 />
             </figure>
             {{/if}}
-
-            <section class="post-full-content">
-                <div class="post-content">
-                    {{content}}
-                </div>
-            </section>
+			
+			<section class="post-full-content">
+				<div class="post-content">
+					{{content}}
+				</div>
+			</section>
 
             {{#if @labs.members}}
                 {{> subscribe-form}}

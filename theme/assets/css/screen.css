@@ -3134,3 +3134,46 @@ Usage (In Ghost editor):
         color: color-mod(var(--green) l(+5%) s(-5%));
     }
 }
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column::-webkit-scrollbar {
+  display: none;
+}
+
+.content-flex {
+	width: 95%;
+	display: flex;
+}
+
+.toc-sidebar {
+	width: 300px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 999; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 64px;
+	padding-left: 20px
+}
+
+.post-full-content {
+	order: 1;
+	overflow-x: auto;
+	padding: 6vw;
+}
+
+
