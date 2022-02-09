@@ -1041,7 +1041,6 @@ make sure this only happens on large viewports / desktop-ish devices.
     padding: 0 170px 6vw;
     min-height: 230px;
 	font-family: 'Avenir', sans-serif;
-	font-weight: 300;
     line-height: 1.6em;
     background: #fff;
 }
