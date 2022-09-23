@@ -74,7 +74,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 1150px;
     width: 100%;
 }
 
@@ -958,7 +958,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     position: relative;
     margin: 0 auto;
     padding: 70px 0 50px;
-	max-width: 800px;
+	max-width: 1150px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
@@ -2091,6 +2091,8 @@ Usage (In Ghost editor):
     display: flex;
     flex-direction: column;
     align-items: center;
+	max-width: 800px;
+	width: 100%;
 }
 
 .post-full-content .kg-image {
@@ -3172,13 +3174,56 @@ Usage (In Ghost editor):
 	order: 1;
 	overflow-x: auto;
 	padding: 0;
-	max-width: 800px
+	max-width: 1150px;
 }
 
 .gist {
 	width: 100%;
 }
 
+.post-sidebar-right {
+	min-width: 350px;
+	max-width: 350px;
+	padding-left: 30px;
+	padding-right: 5px;
+}
+
+.sidebar-goodie {
+	font-size: 75%;
+	margin: 5px 0;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 5px;
+	min-height: 120px;
+	width: 98%;
+	padding: 10px;
+	line-height: normal;
+}
+
+.sidebar-goodie h4 {
+	font-size: 1.5rem;
+	margin: 0 0 0.8rem;
+}
+
+.post-sidebar-right .sidebar-link:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar-goodie p {
+	margin: 0 0 0.8rem;
+}
+
+.sidebar-spacing {
+	margin: 15px 0;
+}
+
+.text-spnsrd {
+	color: #c5cdd0;
+	width: 100%;
+	text-align: right;
+	font-size: 70%;
+	letter-spacing: 1px;
+}
 
 
 
